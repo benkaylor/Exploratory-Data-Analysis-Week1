@@ -62,8 +62,9 @@ legend("topright",
        col=c("black","red","blue"), 
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), 
        lty=1, 
-       bty="n", 
-       cex=.5 
+       bty="n",
+       text.font=2,
+       cex=.7 
        )
 
 # Plot 4/4

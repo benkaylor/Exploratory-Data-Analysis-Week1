@@ -37,7 +37,10 @@ legend("topright",
        col=c("black","red","blue"), 
        legend=c("Sub_metering_1", 
                 "Sub_metering_2", 
-                "Sub_metering_3")
+                "Sub_metering_3"),
+       bty="n",
+       text.font=1,
+       cex = .75
        )
 
 
